@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>tailwindcss -border</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- border -->
+    <h1 class="text-center font-bold text-3xl text-sky-300">Border</h1>
+    <div class="border-3 border-cyan-200">
+      <div class="border">border</div>
+      <div class="border-2 w-80 m-4 border-cyan-200">border-color</div>
+      <div class="border-5 w-80 m-4 border-cyan-100">border width</div>
+      <div class="border-2 w-80 m-4 border-cyan-100">all around</div>
+      <div class="border-x-2 w-80 m-4 border-cyan-100">x - axis</div>
+      <div class="border-y-2 w-80 m-4 border-cyan-100">y -axis</div>
+      <div class="border-r-2 w-80 m-4 border-cyan-200">right</div>
+      <div class="border-l-2 w-80 m-4 border-cyan-200">left</div>
+      <div class="border-t-2 w-80 m-4 border-cyan-200">top</div>
+      <div class="border-b-2 w-80 m-4 border-cyan-200">bottom</div>
+    </div>
+    <!-- border radius -->
+    <h1 class="text-center font-bold text-3xl text-emerald-500 mb-4">
+      Border Radius
+    </h1>
+
+    <div class="rounded mb-3 bg-emerald-100 w-80 p-2 text-center">rounded</div>
+
+    <div class="rounded-lg mb-3 bg-emerald-100 w-80 p-2 text-center">
+      rounded-lg
+    </div>
+
+    <div class="rounded-xl mb-3 bg-emerald-100 w-80 p-2 text-center">
+      rounded-xl
+    </div>
+
+    <div class="rounded-2xl mb-3 bg-emerald-100 w-80 p-2 text-center">
+      rounded-2xl
+    </div>
+
+    <div class="rounded-3xl mb-3 bg-emerald-100 w-80 p-2 text-center">
+      rounded-3xxl
+    </div>
+
+    <div class="rounded-full mb-3 bg-emerald-100 w-80 p-2 text-center">
+      rounded-full
+    </div>
+
+    <!-- border radius for speccific sides -->
+
+    <h1 class="text-center font-bold text-3xl text-emerald-500 mb-4">
+      Border Radius for specific sides
+    </h1>
+
+    <div class="rounded-r mb-3 bg-emerald-100 w-80 p-2 text-center">rigth</div>
+
+    <div class="rounded-l-lg mb-3 bg-emerald-100 w-80 p-2 text-center">
+      rounded-lg-left
+    </div>
+
+    <div class="rounded-t-xl mb-3 bg-emerald-100 w-80 p-2 text-center">
+      rounded-xl-top
+    </div>
+
+    <div class="rounded-b-2xl mb-3 bg-emerald-100 w-80 p-2 text-center">
+      rounded-2xl-bottom
+    </div>
+
+    <div class="rounded-full mb-3 bg-emerald-100 w-80 h-80 p-2 text-center">
+      round
+    </div>
+  </body>
+</html>
