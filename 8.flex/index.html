@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tailwind flex</title>
+  </head>
+  <body class="p-16">
+    <h1 class="text-3xl text-blue-500 font-extrabold text-center">Flex</h1>
+    <div class="flex border justify-evenly p-6">
+      <div class="bg-slate-500">flex 1</div>
+      <div class="bg-slate-500">flex 2</div>
+      <div class="bg-slate-500">flex 3</div>
+      <div class="bg-slate-500">flex 4</div>
+    </div>
+
+    <!-- order -->
+
+    <h1 class="text-3xl text-blue-500 font-extrabold text-center mx-6">
+      order
+    </h1>
+    <div class="flex border justify-evenly p-6">
+      <div class="bg-slate-500 order-4">flex 1</div>
+      <div class="bg-slate-500 order-2">flex 2</div>
+      <div class="bg-slate-500 order-1">flex 3</div>
+      <div class="bg-slate-500 order-3">flex 4</div>
+    </div>
+
+    <!-- flex-property -->
+
+    <h1 class="text-3xl text-blue-500 font-extrabold text-center mx-6">
+      flex-property
+    </h1>
+    <div class="flex border justify-between p-6 h-24 ">
+      <div class="bg-slate-500  flex-none w-64">none</div>
+      <div class="bg-slate-100  w-40 flex-grow">gorw only</div>
+      <div class="bg-slate-500  w-64 flex-initial">shrink only</div>
+      <div class="bg-slate-100  w-64 flex-1">flex 1</div>
+       <div class="bg-slate-500  w-64 flex-auto">flex auto</div>
+    </div>
+  </body>
+</html>
